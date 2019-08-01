@@ -20,11 +20,16 @@ public class Board {
 			//for first line
 			String first = buffer.readLine();
 			String[] line = first.split(" ");
-			int x =Integer.valueOf(line[0]) ;
-			int y = Integer.valueOf(line[1]) ;
+			int numCols =Integer.valueOf(line[0]) ;
+			int numRows = Integer.valueOf(line[1]) ;
 			position= new int[x][y]; 
 			
 			//board
+			
+			for (int x=0; x<numCols; x++) {
+				
+			}
+			
 			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
